@@ -14,6 +14,7 @@ import java.util.Map;
 public class ParamController {
 
     //http:localhost:9999/user/100==>根据id查询
+    //123
     @GetMapping("/user/{id}")
     public String findUserById(@PathVariable("id") int id){
         System.out.println("id==>"+id);
